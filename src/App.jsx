@@ -1,7 +1,13 @@
-import Portfolio from "./components/Portfolio";
+import React from 'react';
+import Header from './components/Header'; // ← Chemin d’accès au fichier
 
 function App() {
-  return <Portfolio />;
+  return (
+    <div>
+      <Header />
+      {/* Le reste de ton contenu */}
+    </div>
+  );
 }
 
 export default App;
