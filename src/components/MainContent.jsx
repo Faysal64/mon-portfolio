@@ -1,7 +1,9 @@
 import React from 'react';
 import '../styles/MainContent.css';
 import Profil from '../assets/images/profil.png';
-
+import Applications from '../assets/images/Applications.png';
+import UXphoto from '../assets/images/UXphoto.png';
+import SEO from '../assets/images/SEO.png';
 
 function MainContent() {
   return (
@@ -15,7 +17,7 @@ function MainContent() {
           </h1>
           <h2>Développeur Front-end.</h2>
           <p>
-            Autodidacte passionné de développement web, UI/UX et accessibilité. J'aime créer des interfaces modernes et accessibles depuis plus de 11 ans.
+            Autodidacte passionné de développement web, UI/UX et accessibilité. 
           </p>
           <div className="buttons">
             <a href="#contact" className="btn primary">ME CONTACTER</a>
@@ -35,7 +37,7 @@ function MainContent() {
 
           <div className="service-card">
             <img
-              src="https://cdn.jsdelivr.net/gh/undraw/undraw@master/static/undraw_mobile_development_re_wwsn.svg"
+              src={Applications}
               alt="Applications"
             />
             <h3>Applications</h3>
@@ -44,7 +46,7 @@ function MainContent() {
 
           <div className="service-card">
             <img
-              src="https://cdn.jsdelivr.net/gh/undraw/undraw@master/static/undraw_design_thinking_re_644h.svg"
+              src={UXphoto}
               alt="UX & Design"
             />
             <h3>Expérience utilisateur & Design</h3>
@@ -53,8 +55,8 @@ function MainContent() {
 
           <div className="service-card">
             <img
-              src="https://cdn.jsdelivr.net/gh/undraw/undraw@master/static/undraw_accessibility_re_d3aa.svg"
-              alt="Accessibilité"
+              src={SEO}
+              alt="SEO"
             />
             <h3>Accessibilité</h3>
             <p>HTML sémantique, ARIA, navigation clavier : un web ouvert à tous, sans barrière.</p>
